@@ -1,4 +1,4 @@
-# Architecture
+# Project Architecture
 
 ![alt text](assets/weather_dashboard_architechture.png)
 
