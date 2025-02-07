@@ -86,4 +86,4 @@ PYTHONPATH=$(pwd) pytest tests/
 PYTHONPATH=src pytest tests/
 pytest tests/
 
-![alt text](image.png)
+![alt text](assets/image.png)
