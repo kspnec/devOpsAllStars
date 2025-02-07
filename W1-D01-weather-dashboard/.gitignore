@@ -2,3 +2,7 @@
 __pycache__/
 *.zip
 .venv
+
+# Ignore IDE settings (VS Code, PyCharm)
+.vscode/
+.idea/
