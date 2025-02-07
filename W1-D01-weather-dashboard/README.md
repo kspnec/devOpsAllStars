@@ -1,3 +1,7 @@
+# Architecture
+
+![alt text](assets/weather_dashboard_architechture.png)
+
 # Create your project structure.
 
 src - directly hold all of our main code.

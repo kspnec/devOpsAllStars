@@ -39,7 +39,10 @@ class WeatherDashboard:
         
         try:
             response = requests.get(base_url, params=params)
-            response.raise_for_status()
+            if response.status_code != 200:
+                print(f"API Error: {response.status_code} - {response.json().get('message', 'Unknown error')}")
+                return None
+    
             return response.json()
         except requests.exceptions.RequestException as e:
             print(f"Error fetching weather data: {e}")
